@@ -1,0 +1,76 @@
+import java.util.Scanner;
+import java.util.Random;
+
+class Dane {
+
+public static void main(String[] args){
+int healthPlayer = 100;
+int healthAttacker = 130;
+int healthAttacker1 = 120;
+int healthAttacker2 = 110;
+int healthAttacker3 = 100; 
+int buildingHeight = 0;
+String choice;
+Scanner gamer = new Scanner(System.in);
+}
+
+while (healthPlayer>0){
+choice = gamer.nextLine();
+
+if (choice.equals ('b')) {
+		buildingHeight = buildingHeight+1;
+	System.out.println("You've chosen to try to build your tower one story." && buildingHeight);	
+
+if (choice.equals ('b1')) {
+		buildingHeight = buildingHeight+1;
+	System.out.println("You've chosen to build your tower one story." && buildingHeight);
+
+if (choice.equals ('b1')) {
+		buildingHeight = buildingHeight+2;
+	System.out.println("You've chosen to try to build your tower two stories." && buildingHeight);
+	
+	if (choice.equals ('b2')) {
+		buildingHeight = buildingHeight+3;
+	System.out.println("You've chosen to try to build your tower three stories." && buildingHeight);
+	
+	if (choice.equals ('b3')) {
+		buildingHeight = buildingHeight+4;
+	System.out.println("You've chosen to try to build your tower four stories." && buildingHeight);
+	
+	if (choice.equals ('b4')) {
+		buildingHeight = buildingHeight+5;
+	System.out.println("You've chosen to try to build your tower five stories." && buildingHeight);
+	
+	if (choice.equals ('b5')) {
+		buildingHeight = buildingHeight+6;
+	System.out.println("You've chosen to try to build your tower six stories." && buildingHeight);
+	
+	if (choice.equals ('b6')) {
+		buildingHeight = buildingHeight+7;
+	System.out.println("You've chosen to try to build your tower seven stories." && buildingHeight);
+	
+	if (choice.equals ('b7')) {
+		buildingHeight = buildingHeight+8;
+	System.out.println("You've chosen to try  to build your tower eight stories." && buildingHeight);
+	
+	if (choice.equals ('b8')) {
+		buildingHeight = buildingHeight+9;
+	System.out.println("You've chosen to try to build your tower nine stories." && buildingHeight);
+
+		if (choice.equals ('b9')) {
+			buildingHeight = buildingHeight+10;
+	System.out.println("You've chosen to try to build your tower ten stories." && buildingHeight);
+}
+}
+
+
+
+
+
+
+
+
+
+
+}
+
